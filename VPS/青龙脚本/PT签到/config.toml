@@ -1,0 +1,70 @@
+# https://github.com/wsng911/PTCheck
+# https://github.com/Ecalose/MyCheckBox
+
+# 杂项
+[common]
+proxy=""
+
+# 企业微信
+[wxconfig]
+msgtype=""
+corpid=""
+corpsecret=""
+title=""
+msg=""
+
+# telegram bot
+[tgconfig]
+bottoken=""
+userid=""
+msg=""
+
+# get类站点
+[[get]]
+name=""
+url=""
+cookie=""
+[[get]]
+name=""
+url=""
+cookie=""
+ua=""
+
+# 馒头
+[[mteam]]
+name="馒头1"
+url="host/index.php"
+cookie=""
+[[mteam]]
+name="馒头2"
+url=""
+cookie=""
+
+# 学校
+[[ptschool]]
+name = "ptschool"
+url = "host/index.php?action=addbonus"
+cookie=""
+ua=""
+# 老师
+[[nicept]]
+name=""
+url="host/attendance.php"
+cookie=""
+
+# 阿里云盘
+[[alicloud]]
+name="阿里云盘"
+refresh_token=""
+
+# discuz论坛(post类)
+[[post]]
+name = ""
+url = ""
+cookie=""
+data=""
+# 已签到的正则表达式
+DoneRegex="今日已经签过到"
+# 签到成功的正则表达式
+SuccessRegex="签到成功"
+ua=""
